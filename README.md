@@ -17,13 +17,6 @@ This repository contains various scripts and utilities for sales, EOD, and repor
 ---
 
 ## 🛠 Development Notes
-- Codebase is in **C#** and uses SQLite for local data storage.
-- Most report generators rely on the `tblsales`, `tbleod`, and `tblchecker` tables.
-- Test cases should be run before moving any "🧪 Testing" modules to production.
-
----
-
-## 📌 To-Do
-- [ ] Finalize `CSV_TO_XML` error handling for missing headers
-- [ ] Replace `generated_palda_old` with calls to the new `generated_palda`
-- [ ] Write automated tests for `generating_excel_presched`
+- Codebase is in **python**
+- Most report generators is for Daily Reports
+- Test cases should be run before moving any "Testing" modules to production.
